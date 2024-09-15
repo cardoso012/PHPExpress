@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/router",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lucas Cardoso",
+      "email": "lucas.cardoso1228@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPExpress\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/var-dumper": "^7.1",
+    "ext-http": "*"
+  }
+}
